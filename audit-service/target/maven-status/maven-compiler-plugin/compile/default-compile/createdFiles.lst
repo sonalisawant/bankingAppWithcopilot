@@ -1,0 +1,4 @@
+com\example\auditservice\repository\AuditRepository.class
+com\example\auditservice\AuditServiceApplication.class
+com\example\auditservice\service\AuditListener.class
+com\example\auditservice\controller\AuditController.class

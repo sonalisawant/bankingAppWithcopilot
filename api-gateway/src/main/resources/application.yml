@@ -1,0 +1,38 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: account-service
+          uri: http://account-service:8081
+          predicates:
+            - Path=/accounts/**
+            - Path=/api/accounts/**
+        - id: transaction-service
+          uri: http://transaction-service:8082
+          predicates:
+            - Path=/transactions/**
+            - Path=/api/transactions/**
+        - id: notification-service
+          uri: http://notification-service:8083
+          predicates:
+            - Path=/notifications/**
+            - Path=/api/notifications/**
+        - id: audit-service
+          uri: http://audit-service:8084
+          predicates:
+            - Path=/audits/**
+            - Path=/api/audits/**
+        - id: ledger-service
+          uri: http://ledger-service:8085
+          predicates:
+            - Path=/ledgers/**
+            - Path=/api/ledgers/**
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
