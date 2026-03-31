@@ -5,11 +5,10 @@ import {
   debitAccount,
   creditAccount,
   performTransaction,
-  fetchLedger,
   fetchAudits
 } from './api.js';
 
-const tabs = ['Accounts', 'Transactions', 'Ledger', 'Audits'];
+const tabs = ['Accounts', 'Transactions', 'Audits'];
 
 function App() {
   const [activeTab, setActiveTab] = useState('Accounts');
@@ -39,7 +38,6 @@ function App() {
       <main className="content">
         {activeTab === 'Accounts' && <AccountsPanel />}
         {activeTab === 'Transactions' && <TransactionsPanel />}
-        {activeTab === 'Ledger' && <LedgerPanel />}
         {activeTab === 'Audits' && <AuditsPanel />}
       </main>
     </div>

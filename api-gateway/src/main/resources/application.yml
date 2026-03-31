@@ -3,33 +3,22 @@ server:
 
 spring:
   cloud:
+    compatibility-verifier:
+      enabled: false
     gateway:
       routes:
         - id: account-service
-          uri: http://account-service:8081
+          uri: ${ACCOUNT_SERVICE_URL:http://localhost:8081}
           predicates:
-            - Path=/accounts/**
-            - Path=/api/accounts/**
+            - Path=/accounts/**,/api/accounts/**
         - id: transaction-service
-          uri: http://transaction-service:8082
+          uri: ${TRANSACTION_SERVICE_URL:http://localhost:8082}
           predicates:
-            - Path=/transactions/**
-            - Path=/api/transactions/**
-        - id: notification-service
-          uri: http://notification-service:8083
-          predicates:
-            - Path=/notifications/**
-            - Path=/api/notifications/**
+            - Path=/transactions/**,/api/transactions/**
         - id: audit-service
-          uri: http://audit-service:8084
+          uri: ${AUDIT_SERVICE_URL:http://localhost:8084}
           predicates:
-            - Path=/audits/**
-            - Path=/api/audits/**
-        - id: ledger-service
-          uri: http://ledger-service:8085
-          predicates:
-            - Path=/ledgers/**
-            - Path=/api/ledgers/**
+            - Path=/audits/**,/api/audits/**
 
 springdoc:
   api-docs:

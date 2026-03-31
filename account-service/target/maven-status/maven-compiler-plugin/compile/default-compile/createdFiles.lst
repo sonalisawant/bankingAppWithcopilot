@@ -1,5 +1,5 @@
-com\example\accountservice\service\AccountService.class
-com\example\accountservice\AccountServiceApplication.class
-com\example\accountservice\config\DataInitializer.class
-com\example\accountservice\repository\AccountRepository.class
-com\example\accountservice\controller\AccountController.class
+com/example/accountservice/service/AccountService.class
+com/example/accountservice/controller/AccountController.class
+com/example/accountservice/config/DataInitializer.class
+com/example/accountservice/repository/AccountRepository.class
+com/example/accountservice/AccountServiceApplication.class

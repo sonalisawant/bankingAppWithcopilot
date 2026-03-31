@@ -46,10 +46,6 @@ export function performTransaction(transactionRequest) {
   });
 }
 
-export function fetchLedger() {
-  return request('/ledgers');
-}
-
 export function fetchAudits() {
   return request('/audits');
 }

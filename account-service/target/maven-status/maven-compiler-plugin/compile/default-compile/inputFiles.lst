@@ -1,5 +1,5 @@
-D:\copilaot\bankingAppWithcopilot\account-service\src\main\java\com\example\accountservice\repository\AccountRepository.java
-D:\copilaot\bankingAppWithcopilot\account-service\src\main\java\com\example\accountservice\service\AccountService.java
-D:\copilaot\bankingAppWithcopilot\account-service\src\main\java\com\example\accountservice\controller\AccountController.java
-D:\copilaot\bankingAppWithcopilot\account-service\src\main\java\com\example\accountservice\config\DataInitializer.java
-D:\copilaot\bankingAppWithcopilot\account-service\src\main\java\com\example\accountservice\AccountServiceApplication.java
+/usr/src/app/account-service/src/main/java/com/example/accountservice/AccountServiceApplication.java
+/usr/src/app/account-service/src/main/java/com/example/accountservice/config/DataInitializer.java
+/usr/src/app/account-service/src/main/java/com/example/accountservice/service/AccountService.java
+/usr/src/app/account-service/src/main/java/com/example/accountservice/controller/AccountController.java
+/usr/src/app/account-service/src/main/java/com/example/accountservice/repository/AccountRepository.java

@@ -1,5 +1,5 @@
-D:\copilaot\bankingAppWithcopilot\transaction-service\src\main\java\com\example\transactionservice\TransactionServiceApplication.java
-D:\copilaot\bankingAppWithcopilot\transaction-service\src\main\java\com\example\transactionservice\service\TransactionService.java
-D:\copilaot\bankingAppWithcopilot\transaction-service\src\main\java\com\example\transactionservice\config\KafkaConfig.java
-D:\copilaot\bankingAppWithcopilot\transaction-service\src\main\java\com\example\transactionservice\controller\TransactionController.java
-D:\copilaot\bankingAppWithcopilot\transaction-service\src\main\java\com\example\transactionservice\repository\TransactionRepository.java
+/usr/src/app/transaction-service/src/main/java/com/example/transactionservice/repository/TransactionRepository.java
+/usr/src/app/transaction-service/src/main/java/com/example/transactionservice/service/TransactionService.java
+/usr/src/app/transaction-service/src/main/java/com/example/transactionservice/TransactionServiceApplication.java
+/usr/src/app/transaction-service/src/main/java/com/example/transactionservice/controller/TransactionController.java
+/usr/src/app/transaction-service/src/main/java/com/example/transactionservice/config/KafkaConfig.java

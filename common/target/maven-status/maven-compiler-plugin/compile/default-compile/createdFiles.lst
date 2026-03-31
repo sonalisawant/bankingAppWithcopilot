@@ -1,6 +1,6 @@
-com\example\shared\model\TransactionRequest.class
-com\example\shared\model\Account.class
-com\example\shared\model\LedgerEntry.class
-com\example\shared\model\NotificationEvent.class
-com\example\shared\model\AuditEvent.class
-com\example\shared\model\Transaction.class
+com/example/shared/model/AuditEvent.class
+com/example/shared/model/NotificationEvent.class
+com/example/shared/model/TransactionRequest.class
+com/example/shared/model/LedgerEntry.class
+com/example/shared/model/Account.class
+com/example/shared/model/Transaction.class
