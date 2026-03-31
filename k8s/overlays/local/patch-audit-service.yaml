@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: audit-service
+spec:
+  template:
+    spec:
+      containers:
+        - name: audit-service
+          image: banking/audit-service:local
+          imagePullPolicy: IfNotPresent
