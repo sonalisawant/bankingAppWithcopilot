@@ -1,0 +1,16 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: banking
+
+resources:
+  - namespace.yaml
+  - configmap.yaml
+  - secret.yaml
+  - postgres.yaml
+  - kafka-zookeeper.yaml
+  - account-service.yaml
+  - transaction-service.yaml
+  - audit-service.yaml
+  - api-gateway.yaml
+  - frontend.yaml
+  - ingress.yaml
